@@ -23,7 +23,7 @@ Materials:
 - Copper wire
 - Pin headers (angled, 2-row)
 
-<img src="/Transistors/picture-top.jpg" alt="top-transistors" width="500" height="auto">
+<img src="/Transistors/picture-top.jpg" alt="top-transistors" width="auto" height="300"><img src="/Transistors/circuit-diagramm.png" alt="top-transistors" width="auto" height="300">
 
 ## Module 2: NAND Gates (74HC 00)
 
@@ -36,7 +36,7 @@ Materials:
 - 2x Sliding switch
 - Pin headers (angled, 2-row)
 
-<img src="/74HC00/image-top.jpg" alt="top-74HC00" width="500" height="auto">
+<img src="/74HC00/image-top.jpg" alt="top-74HC00" width="auto" height="300"><img src="/74HC00/circuit-diagramm.png" alt="circuit-74HC00" width="auto" height="300">
 
 ## Power supply
 
@@ -49,7 +49,9 @@ The power supply of this device consits of:
 - 2x Sliding switch
 - Pin headers (angled, 2-row)
 
-<img src="/Power supply/power-supply.jpg" alt="top-power" width="500" height="auto">
+I didn't have a positive voltage regulator (MC7805) at home, so I used the negative one (MC7905).
+
+<img src="/Power supply/power-supply.jpg" alt="top-power" width="auto" height="300"><img src="/Power supply/circuit-diagramm.png" alt="top-power" width="auto" height="300">
 
 ## More modules to come...
 
