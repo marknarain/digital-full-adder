@@ -1,0 +1,14 @@
+"Source:","D:\___Coding-Projects\digital-full-adder\Transistors\KiCad\circuit-diagramm.kicad_sch"
+"Date:","19.01.2024 15:42:49"
+"Tool:","Eeschema 7.0.9"
+"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","48"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP"
+"1","1","D1","LED","Device:LED","","~",""
+"2","19","Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19","BC547","Transistor_BJT:BC547","Package_TO_SOT_THT:TO-92_Inline","https://www.onsemi.com/pub/Collateral/BC550-D.pdf",""
+"3","9","R1, R2, R3, R4, R5, R6, R7, R8, R9","10k","Device:R","","~",""
+"4","1","R10","330","Device:R","","~",""
+"5","18","R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28","100k","Device:R","","~",""
