@@ -38,6 +38,19 @@ Materials:
 
 <img src="/74HC00/image-top.jpg" alt="top-74HC00" width="auto" height="300"><img src="/74HC00/circuit-diagramm.png" alt="circuit-74HC00" width="auto" height="300">
 
+## Module 3: 4-Bit Binary Full Adder (74HCT283E)
+
+The thir module cosist of one 4-Bit Binary Full Adder. 
+
+Materials:
+- 1x 74HCT283E: 4-Bit Binary Full Adder with Fast Carry
+- 3x Resistor (330kΩ)
+- 3x LED (5mm, red)
+- 2x Sliding switch
+- Pin headers (angled, 2-row)
+
+<img src="/74HCT283E/image-top.jpg" alt="top-74HC00" width="auto" height="300">
+
 ## Power supply
 
 The power supply of this device consits of:
@@ -55,7 +68,6 @@ I didn't have a positive voltage regulator (MC7805) at home, so I used the negat
 
 ## More modules to come...
 
-- Full adder (74HCT283E)
 - Raspberry Pi pico
 - FPGA
 - MOSFET transistors
