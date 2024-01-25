@@ -53,9 +53,10 @@ Materials:
 
 ## Module 4: Raspberry Pi Pico (RP2040)
 
-Module number 4 is one Raspberry Pi Pico. The code is wirtten in micropython. 
+Module number 4 is one Raspberry Pi Pico. The code is wirtten in micropython. You can find it underneath the materials. Although using a Raspberry Pi for a single module of a full adder is overkill, I still thought that it'd be a nice extension 🙂.
 
 Materials:
+- Raspberry Pi Pico (RP2040)
 - 3x Resistor (330kΩ)
 - 3x LED (5mm, red)
 - 2x Sliding switch
@@ -79,6 +80,7 @@ while True:
     add_sum.value((add_a.value() + add_b.value() + add_cin.value()) % 2)
     add_cout.value(int((add_a.value() + add_b.value() + add_cin.value()) / 2))
 ````
+
 
 <img src="/RP2040/circuit.png" alt="top-74HC00" width="auto" height="300">
 
