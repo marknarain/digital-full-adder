@@ -40,7 +40,7 @@ Materials:
 
 ## Module 3: 4-Bit Binary Full Adder (74HCT283E)
 
-The thir module cosist of one 4-Bit Binary Full Adder. 
+The third module cosist of one 4-Bit Binary Full Adder. 
 
 Materials:
 - 1x 74HCT283E: 4-Bit Binary Full Adder with Fast Carry
@@ -50,6 +50,37 @@ Materials:
 - Pin headers (angled, 2-row)
 
 <img src="/74HCT283E/image-top.jpg" alt="top-74HC00" width="auto" height="300">
+
+## Module 4: Raspberry Pi Pico (RP2040)
+
+Module number 4 is one Raspberry Pi Pico. The code is wirtten in micropython. 
+
+Materials:
+- 3x Resistor (330kΩ)
+- 3x LED (5mm, red)
+- 2x Sliding switch
+- Pin headers (angled, 2-row)
+
+Python code:
+
+````
+from machine import Pin
+import time
+
+led = Pin(15, Pin.OUT)
+add_a = Pin(2, Pin.IN, Pin.PULL_DOWN)
+add_b = Pin(3, Pin.IN, Pin.PULL_DOWN)
+add_cin = Pin(4, Pin.IN, Pin.PULL_DOWN)
+
+add_sum = Pin(6, Pin.OUT)
+add_cout = Pin(7, Pin.OUT)
+
+while True:
+    add_sum.value((add_a.value() + add_b.value() + add_cin.value()) % 2)
+    add_cout.value(int((add_a.value() + add_b.value() + add_cin.value()) / 2))
+````
+
+<img src="/RP2040/circuit.png" alt="top-74HC00" width="auto" height="300">
 
 ## Power supply
 
@@ -68,7 +99,6 @@ I didn't have a positive voltage regulator (MC7805) at home, so I used the negat
 
 ## More modules to come...
 
-- Raspberry Pi pico
 - FPGA
 - MOSFET transistors
 - ...
