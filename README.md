@@ -66,7 +66,7 @@ You can view a simulation of the circuit using this [link](https://wokwi.com/pro
 
 Python code:
 
-````
+````Python
 from machine import Pin
 
 a = Pin(2, Pin.IN, Pin.PULL_DOWN)
